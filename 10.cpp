@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+//--------------loop in c++ statement------------
 int main(){
     /* Loops in C++:
        There are three types of loops in C++:
@@ -72,12 +73,17 @@ while (condition)
       */
 
  // Printing 1 to 40 using do-while loop  
- int i=1;
- do
- {
-     cout<<i<<endl;
-     i++;
- } while (false);
+//  int i=1;
+//  do
+//  {
+//      cout<<i<<endl;
+//      i++;
+//  } while (i<=40);
+
+
+
+    std::cout<<"hello world";
+   
  
     return 0;
 }
