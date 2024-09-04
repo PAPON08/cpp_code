@@ -24,10 +24,10 @@ int main(){
     // cout<<mathmarks[2]<<endl;
     // cout<<mathmarks[3]<<endl;
 
-    // for (int i = 0; i < 5; i++)
-    // {
-    //     cout<<"the vlaue of mathmarks "<<i<<" is "<<mathmarks[i]<<endl;
-    // }
+    for (int i = 0; i < 5; i++)
+    {
+        cout<<"the vlaue of mathmarks "<<i<<" is "<<mathmarks[i]<<endl;
+    }
 
     // int i;
     // while (i<4)
@@ -36,13 +36,25 @@ int main(){
     //     i++;
     // }
 
-    int i;
-    do
-    {
-         cout<<"the vlaue of mathmarks "<<i<<" is "<<mathmarks[i]<<endl;
-         i++;
-    } while (i<4);
-    
-    
+    // int i;
+    // do
+    // {
+    //      cout<<"the vlaue of mathmarks "<<i<<" is "<<mathmarks[i]<<endl;
+    //      i++;
+    // } while (i<4);
+
+    //pointer and arrays
+
+    int* p = marks;
+
+    cout<<*(p++)<<endl;
+    cout<<*p<<endl;
+    cout<<*(++p)<<endl;
+
+    // cout<<"The vlaue of *p is "<<*p<<endl;
+    // cout<<"The vlaue of *(p+1) is "<<*(p+1)<<endl;
+    // cout<<"The vlaue of *(p+2) is "<<*(p+2)<<endl;
+    // cout<<"The vlaue of *(p+3) is "<<*(p+3)<<endl;
+
     return 0;
 }
